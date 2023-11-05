@@ -1,0 +1,358 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.contenedor{
+	height: 150px;
+	background: #ee9ca7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-collapse: separate;
+     border-spacing: 40;
+    border: 1px solid pink;
+}
+
+#logo{
+	width: 100px;
+	height: 100px;
+}
+
+#titulo{
+	font-size:70px;
+	font-family: 'Pacifico', cursive;
+
+
+}
+.buscar {
+	float: right;
+  padding: 5px;
+  margin-right: 30px;
+
+}
+
+.buscar input {
+  width: 0;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 18px;
+  color: #222;
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 30px;
+  transition: all 0.6s ease;
+
+}
+
+
+
+.buscar:hover input {
+  width: 240px;
+}
+
+.buscar input:focus {
+  width: 240px;
+}
+
+.wave{
+	position: absolute;
+	bottom: 505px;
+	width: 100%;
+}
+
+
+
+#lupa{
+	
+	margin-bottom: 20px;
+	max-height: 30px;
+	max-width: 30px;
+
+}
+
+#face{
+	margin-left: 390px;
+	max-height: 30px;
+	max-width: 30px;
+	margin-bottom: 20px;
+}
+
+#insta{
+	max-height: 30px;
+	max-width: 30px;
+	margin-bottom: 20px;
+}
+
+#whatsapp{
+	max-height: 30px;
+	max-width: 30px;
+	margin-bottom: 20px;
+}
+
+
+#primer{
+	max-height: 70px;
+	max-width: 70px;
+	margin-top: 5px;
+}
+
+.navegacion{
+	display: block;
+	justify-content: center;
+	margin: auto;
+	font-size: 20px;
+	margin-top: 50px;
+}
+
+#color{
+	height: 100px;
+	width: 100%;
+	margin-top: 80px;
+	background: #12c2e9 ;
+  	background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  	background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); 
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	background-size: cover;
+  	background-position: center;
+   	border-radius: 60px;
+}
+.menu a{
+	font-family: 'Fredoka One', cursive;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 30px;
+	display: block;
+	padding: 15px 20px;
+}
+
+ul{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	grid-gap: 70px;
+
+}
+#atras{
+	margin-top: 20px;
+	width: 40px;
+	height: 40px;
+
+}
+
+/* aqui empiezan las recetas*/
+
+
+.conteiner{
+	width: 500px;
+	height: 900px;
+	margin-top: 70px;
+	background-color: pink;
+	margin-left: 60px;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0px 1px 10px rgba (0,0,0,0.2);
+	cursor:default;
+	transition: all 400ms ease;
+	background: #fbd3e9; 
+  	background: -webkit-linear-gradient(to top, #fbd3e9, #bb377d); 
+  	background: linear-gradient(to top, #fbd3e9, #bb377d);  
+
+}
+.video{
+	float: right;
+	display: flex;
+	margin-top: 50px;
+	margin-right: 350px;
+	width:  400px;
+	height: 400px;
+}
+
+.conteiner:hover{
+	box-shadow: 5px 5px 20px rgba (0,0,0,0.4);
+	transform: translateY(-3%);
+
+
+}
+
+.avena{
+	max-width:500px; 
+	max-height:500px;
+	
+}
+
+.ingredientes h2{
+	text-align: center;
+}
+.conteiner li{
+	text-decoration: none;
+	padding: 15px 20px;
+	line-height: 1.5;
+	
+}
+.ingredientes .proceso{
+	text-align: justify;
+	line-height: 1.5;
+	padding: 15px 20px;
+}
+
+/*aqui va la receta de chocolate*/
+
+.video1{
+	float: left;
+	display: flex;
+	margin-top: 70px;
+	margin-left: 80px;
+	width:  400px;
+	height: 400px;
+	
+}
+.conteiner1{
+	width: 500px;
+	height: 950px;
+	margin-top: 70px;
+	background-color: purple;
+	float: right;
+	margin-right: 70px;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0px 1px 10px rgba (0,0,0,0.2);
+	cursor:default;
+	transition: all 400ms ease;
+	background: #f2709c; 
+  	background: -webkit-linear-gradient(to bottom, #f2709c, #ff9472); 
+  	background: linear-gradient(to bottom, #f2709c, #ff9472); 
+
+}
+.conteiner1:hover{
+	box-shadow: 5px 5px 20px rgba (0,0,0,0.4);
+	transform: translateY(-3%);
+
+
+}
+
+.chocolate{
+	max-width:500px; 
+	max-height:500px;
+	
+}
+
+.ingredientes1 h2{
+	text-align: center;
+}
+.conteiner1 li{
+	text-decoration: none;
+	padding: 15px 20px;
+	line-height: 1.5;
+	
+}
+.ingredientes1 .proceso1{
+	text-align: justify;
+	line-height: 1.5;
+	padding: 15px 20px;
+}
+
+
+.linea{
+	width: 100%;
+	height: 60px;
+	background: #50c9c3; 
+  	background: -webkit-linear-gradient(to bottom, #50c9c3, #96deda); 
+  	background: linear-gradient(to bottom, #50c9c3, #96deda); 
+  	opacity: 0.5;
+  	margin-top: 1000px;
+  	
+}
+
+.linea p{
+	text-align: center;
+	font-size:30px;
+	font-family: 'Pacifico', cursive;
+	
+	
+}
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(../Images/background-footer.svg);
+    background-size: cover;
+}
+
+
+.piedepagina{
+	background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box_footer{
+    display: flex;
+    padding: 40px;
+}
+
+.box_footer .logo img{
+    width: 100px;
+}
+
+.box_footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+ }
+
+
+
+.bibli h2{
+	margin-left: 250px;
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.bibli a{
+	display: flex;
+	margin-left: 250px;
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.bibli a:hover{
+    opacity: 0.8;
+}
+
+
+
+.box_copyright{
+	background: #1c92d2; /* fallback for old browsers */
+ 	background: -webkit-linear-gradient(to top, #1c92d2, #f2fcfe); /* Chrome 10-25, Safari 5.1-6 */
+  	background: linear-gradient(to top, #1c92d2, #f2fcfe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  	opacity: 0.5;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+ 
+.box_copyright p{
+    margin-top: 20px;
+    color: #000;
+}
+
+#arriba{
+	position: absolute;
+	margin-left: 20px;
+}
+

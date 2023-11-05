@@ -1,0 +1,25 @@
+@media screen and (min-width:769px){
+	.boxdad{grid-template-columns: repeat(3, 1fr);}
+
+	.boxheader{
+		grid-column: 1/-1;
+		grid-row: 1;}
+
+	.boxbanner{height: 20rem;
+		grid-column: 1/3;
+		grid-row: 2;}
+
+	.boxaside{grid-column: 3;
+		height: auto;}
+
+	.boxaside ul{flex-direction: column;}
+
+	.boxaside ul li{width: 100%;}
+
+	#boxinventario{grid-column: 1/4;}
+
+	.tarjeta{width: 30%;}
+
+	.boxfooter{grid-column: 1/-1;}
+
+}
